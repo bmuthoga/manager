@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`>>>R O U T E R --- Test Router +++ renders correctly 1`] = `
+<Router>
+  <Component
+    key="root"
+  >
+    <Component
+      hideNavBar={true}
+      key="auth"
+    >
+      <Component
+        component={[Function]}
+        hideNavBar={false}
+        key="login"
+        title="Please Login"
+      />
+    </Component>
+    <Component
+      hideNavBar={true}
+      key="main"
+    >
+      <Component
+        component={[Function]}
+        hideNavBar={false}
+        key="employeeList"
+        onRight={[Function]}
+        renderBackButton={[Function]}
+        rightTitle="Add"
+        title="Employees"
+      />
+      <Component
+        component={[Function]}
+        hideNavBar={false}
+        key="employeeCreate"
+        title="Create Employee"
+      />
+      <Component
+        component={[Function]}
+        hideNavBar={false}
+        key="employeeEdit"
+        title="Edit Employee"
+      />
+    </Component>
+  </Component>
+</Router>
+`;

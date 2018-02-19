@@ -36,6 +36,12 @@ node_modules/
 npm-debug.log
 yarn-error.log
 
+# coverage
+coverage/
+
+# VS Code
+.vscode/
+
 # BUCK
 buck-out/
 \.buckd/
@@ -51,3 +57,6 @@ buck-out/
 */fastlane/report.xml
 */fastlane/Preview.html
 */fastlane/screenshots
+
+# Miscellaneous
+fewf.json
