@@ -8,10 +8,35 @@ An employee management app built with React Native.
 - Linting: `eslint`
 - Test Framework: `jest`
 
+Below are the previews of the app:
+
+| Android  | iOS  |
+|---|---|
+| <img alt="android-preview" src="https://i.ibb.co/y4WmhBJ/manager-android.gif" height="480" width="230" />  | <img alt="ios-preview" src="https://i.ibb.co/cYWnQHD/manager-ios.gif" height="480" width="260" />  |
+
 ### Running the project
 _Requires `react-native-cli` installed_
 
-1. Clone the project
-2. Install dependencies with `npm install`
-3. Start the dev server with `npm start`
-4. Run with `react-native run-android` or `react-native run-ios`
+1. Clone this repository
+
+2. Navigate into the cloned repository directory
+
+        cd manager
+
+3. Install project dependencies
+
+        yarn
+
+4. Start the Metro Bundler server
+
+        yarn start
+
+5. Run the application (on a separate terminal instance)
+
+    On Android Emulator:
+
+        react-native run-android
+
+    On iOS Simulator:
+
+        react-native run-ios
