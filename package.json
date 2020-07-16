@@ -9,7 +9,7 @@
   "dependencies": {
     "@firebase/app-types": "^0.1.0",
     "firebase": "^4.8.0",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.19",
     "react": "16.0.0",
     "react-native": "0.51.0",
     "react-native-communications": "^2.2.1",
